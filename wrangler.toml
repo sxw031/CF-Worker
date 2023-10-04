@@ -1,0 +1,17 @@
+name = "worker-round-meadow-b934"
+main = "src/index.ts"
+compatibility_date = "2023-10-03"
+usage_model = "bundled"
+env = { }
+
+[route]
+pattern = "*.spirit85.com/secure"
+zone_name = ""
+script = "worker-round-meadow-b934"
+
+[triggers]
+crons = [ ]
+
+[[r2_buckets]]
+binding = "Country"
+bucket_name = "flagasset"
